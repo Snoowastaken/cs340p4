@@ -24,15 +24,20 @@ public class BinaryHeap {
     public int getMinPriority(){
         //PRE: size != 0
         //return the priority in the root of the heap
+
+        return 0;
     }
 
     public HuffmanTree getMinTree(){
         //PRE: size != 0
         //return the tree in the root of the heap
+        return null;
     }
 
     public boolean full(){
         //return true if the heap is full otherwise return false
+
+        return false;
     }
 
     public void insert(int p, HuffmanTree t){
@@ -42,5 +47,7 @@ public class BinaryHeap {
 
     public int getSize(){
         //return the number of values, (priority , tree) pairs, in the heap
+
+        return 0;
     }
 }

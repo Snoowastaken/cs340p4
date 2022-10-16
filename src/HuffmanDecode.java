@@ -13,7 +13,7 @@ public class HuffmanDecode {
     public static void main(String args[]){
         //args[0] is the name of the source file
         //args[1] is the name of the output file
-        new HuffmanDecode(args[0], args[1]));
+        new HuffmanDecode(args[0], args[1]);
         //do not change anything here
     }
 

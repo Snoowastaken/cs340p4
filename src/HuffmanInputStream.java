@@ -19,12 +19,16 @@ public class HuffmanInputStream {
         //the value returned will be either a 0 or a 1
         //you will need to read each byte from the file (use readUnsignedByte)
         //after 8 calls to readBit you will need to read another byte
+        byte bit= 0;
         try{
+            bit += 0;
 
         }catch (IOException e){
+            System.out.println("Error reading bit");
+
 
         }
-        byte bit= 0;
+
         return bit;
 
     }
