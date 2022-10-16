@@ -24,6 +24,7 @@ public class HuffmanInputStream {
         }catch (IOException e){
 
         }
+        byte bit= 0;
         return bit;
 
     }
